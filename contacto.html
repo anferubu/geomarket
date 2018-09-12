@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+  
+  <head>
+  	<meta charset="UTF-8">
+    <title>anferubu</title>
+ 	  <link rel="icon" sizes="16x16" href="icono/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+ 	
+    <style type="text/css">
+
+    * {
+      font-family: 'Ubuntu Mono', monospace;
+      box-sizing: border-box;
+      width: auto;
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    header {
+      width: 100%;
+      height: 70px;
+      background: #1ABC9C;
+      margin-bottom: 10px;
+      
+    }
+
+    .ancho {
+      width: 80%;
+      height: 70px;
+      margin: auto;
+    }
+
+    .imagen {
+      width: 8%;
+      height: 70px;
+      float: left;
+      padding-top: 10px;
+      box-sizing: border-box;
+
+    }
+
+    .logo {
+      width: 32%;
+      height: 70px;
+      float: left;
+      padding-top: 10px;
+        box-sizing: border-box;
+    }
+
+    .logo p a {
+      color: #fff;
+      font-size: 40px;
+      text-decoration: none; 
+      font-weight: bold;
+      
+    }
+
+    nav {
+      width: 60%;
+      height: 70px;
+      float: left;
+      text-align: right;
+      padding-top: 24px;
+      box-sizing: border-box;
+
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      color: #fff;
+      font-size: 13px;
+      text-decoration: none; 
+      text-transform: uppercase;
+      padding-left: 15px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      
+    }
+
+    nav ul li a:hover {
+      color: #444;
+      font-size: 14px;
+
+    }
+
+    h1 {
+      width: 100%;
+      margin: 0 auto;
+      color: #fff;
+      background: #C0C0C0;
+      border-radius: 5px;
+      padding: 1px;
+      text-align: center;
+      font-size: xx-large;
+    }
+
+    section {
+      width: 100%;
+      height: auto;
+    }
+
+    
+    input[type=text], textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+
+    
+
+    div.contacto {
+      width: 100%;
+      margin: 0 auto;
+      color: #708090;
+      position: absolute;
+      top: 130px;
+      background: #f2f2f2;
+      border-radius: 5px;
+      padding: 10px;
+      font-size: 15px;
+    }
+
+    div.mapa, div.formulario {
+       width: 50%;
+       float: left;
+       margin-top: 6px;
+       padding: 20px;
+    }
+
+    div iframe {
+      margin-top: 0;
+      margin-bottom: 10px;
+      width: 100%;
+      height: 400px;
+    }
+
+    div.vacio {
+      width: 100%;
+      height: 100px;
+      position: absolute;
+      bottom: 0;
+    }
+
+
+      
+    
+    </style>
+  </head>
+    <body>
+
+      <header>
+        <div class="ancho">
+
+          <div class="imagen">
+            <img src="icono/logo.png" alt="GeoMarket" width="50px" height="50px">
+          </div>
+
+          <div class="logo">
+            <p><a href="contacto.html">GeoMarket</a></p>
+          </div>
+
+          <nav>
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="nosotros.html">Nosotros</a></li>
+              <li><a href="servicios.html">Servicios</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+          </nav>
+        </div>
+      </header>
+
+      
+      <h1>CONTACTO</h1>
+   
+
+      <section>
+
+      <div class="contacto">
+
+      <div class="mapa">
+        <figure>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2733.933931004821!2d-76.21396848854754!3d4.089523838425087!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1536617105536" frameborder="0"></iframe><figcaption><b>Número celular: </b> +57 314 509 9743</figcaption></figure>
+      </div>
+   
+      <div class="formulario">
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSfw5JVhzcK57X9fsxkvMmuS1PYi9OLfs7zr8u6Kd4cjKtYcxg/formResponse">
+        <label for="fname">Nombre</label>
+        <input type="text" id="fname" name="entry.643227558" placeholder="Tu nombre...">
+        <label for="lname">Apellido</label>
+        <input type="text" id="lname" name="entry.425809623" placeholder="Tu apellido...">
+        <label for="subject">Mensaje</label>
+        <textarea id="subject" name="entry.567000425" placeholder="Escribe algo..." style="height:170px"></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+      </div>
+      </div>
+
+      </section>
+      
+      <div class="vacio">
+        <br>
+        <br>
+        <br>
+      </div>
+
+         
+    </body>
+</html>

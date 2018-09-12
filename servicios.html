@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  	<meta charset="UTF-8">
+    <title>Galeria</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+    <style type="text/css">
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Ubuntu Mono', monospace;
+    }
+
+    body {
+        background-color: #f5f5f5;
+    }
+
+    header {
+        width: 100%;
+        height: 70px;
+        background: #1ABC9C;
+        margin-bottom: 10px;
+        
+    }
+
+    .ancho {
+        width: 80%;
+        height: 70px;
+        margin: auto;
+    }
+
+    .imagen {
+        width: 8%;
+        height: 70px;
+        float: left;
+        padding-top: 10px;
+        box-sizing: border-box;
+
+    }
+
+    .logo {
+        width: 32%;
+        height: 70px;
+        float: left;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+
+    .logo p a {
+        color: #fff;
+        font-size: 40px;
+        text-decoration: none; 
+        font-weight: bold;
+        
+    }
+
+    nav {
+        width: 60%;
+        height: 70px;
+        float: left;
+        text-align: right;
+        padding-top: 24px;
+        box-sizing: border-box;
+
+    }
+
+    nav ul li {
+        display: inline;
+    }
+
+    nav ul li a {
+        color: #fff;
+        font-size: 13px;
+        text-decoration: none; 
+        text-transform: uppercase;
+        padding-left: 15px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        
+    }
+
+    nav ul li a:hover {
+        color: #444;
+        font-size: 14px;
+
+    }
+
+
+
+
+
+    div.galeria {
+        width: 90%;
+        margin: auto;
+        padding: 0.5% 0 2% 0;
+        background-color: #E6E6FA;
+        border-radius: 15px;
+    }
+
+ 
+    p.primero {
+        padding-top: 10px;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+
+    div.fila {
+        width: 95%;
+        height: 430px;
+        margin: auto;
+        margin-top: 2%;
+        background-color: #fff;
+        border-radius: 15px;
+        overflow: auto;
+    }
+
+    div.item {
+        margin: 1%;
+        width: 30%;
+        background-color: #E6E6FA;
+        border-radius: 15px;
+        float: left;
+    }
+
+    div.item img {
+        margin-left: 8%;
+        width: 80%;
+        padding: 2%;
+        border-radius: 50%;
+    }
+
+    div.item img:hover {
+        transform: scale(1.1);
+    }
+
+    div.descripcion {
+        padding: 10px;
+        margin: auto;
+    }
+
+    hr {
+        border: none;
+        width: 95%;
+        height: 2px;
+        background-color: black;
+        margin: 2% 0%;
+    }
+
+    h3.nombre_item {
+        text-align: center;
+        font-size: 16px;
+    }
+
+
+
+    p.precio {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: #8B4513;
+        background-color: white;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    footer {
+        color: #fff;
+        font-family: monospace;
+        font-style: normal;
+        font-size: 15px;
+        font-weight: bold;
+        width: 100%;
+        height: 50px;
+        background: #1ABC9C;
+        margin-top: 10px;
+    }
+
+    div.declaracion, div.contacto, div.correo {
+        width: 33.3%;
+        height: 50px;
+        float: left;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    footer a {
+        color: #ffcc99;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 10%;
+        margin: 10px 20px 10px 0; 
+    }
+
+    footer a:hover {
+        color: #444;
+        background: #fff;
+    }
+
+    footer a:visited {
+        color: #ff3300;
+    }
+
+
+
+
+    </style>
+  </head>
+    <body>
+
+        <header>
+            <div class="ancho">
+
+                <div class="imagen">
+                    <img src="icono/logo.png" alt="GeoMarket" width="50px" height="50px">
+                </div>
+
+                <div class="logo">
+                    <p><a href="contacto.html">GeoMarket</a></p>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </header>
+
+        <div class="galeria">
+
+            <p class="primero"> ¡Envios gratis a todo el país! </p>
+
+
+            <div class="fila">
+
+                <div class="item">
+                    <img src="galeria/brujula.jfif" alt="Brújula">
+                    <div class="descripcion">
+                        <hr>
+                        <h3 class="nombre_item">Brújula tipo Bruntón modelo DQY-1</h3>
+                        <p class="precio">$410.000</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="galeria/brujula_01.jfif" alt="Brújula">
+                    <div class="descripcion">
+                        <hr>
+                        <h3 class="nombre_item">Brújula tipo Bruntón modelo DQL-8</h3>
+                        <p class="precio">$390.000 </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="galeria/brujula_02.jfif" alt="Brújula">
+                    <div class="descripcion">
+                        <hr>
+                        <h3 class="nombre_item">Brújula tipo alemana modelo DQL-2A</h3>
+                        <p class="precio">$420.000 </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="fila">
+
+                <div class="item">
+                    <img src="galeria/cincel.jfif" alt="Cincel">
+                    <div class="descripcion">
+                        <hr>
+                        <h3 class="nombre_item">Cincel punta de pala para geología</h3>
+                        <p class="precio">$25.000</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="galeria/martillo.jfif" alt="Martillo">
+                    <div class="descripcion">
+                        <hr>
+                        <h3 class="nombre_item">Martillo geológico Estwing</h3>
+                        <p class="precio">$130.000 </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="galeria/mazo.jfif" alt="Mazo">
+                    <div class="descripcion">
+                        <hr>
+                        <h3 class="nombre_item">Mazo geológico Estwing</h3>
+                        <p class="precio">$60.000 </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fila">
+
+                <div class="item">
+                    <img src="galeria/lupa_01.jfif" alt="Lupa">
+                    <div class="descripcion">
+                        <hr>
+                        <h3 class="nombre_item">Lupa con lente de 20X</h3>
+                        <p class="precio">$25.000</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="galeria/lupa_02.jfif" alt="Lupa">
+                    <div class="descripcion">
+                        <hr>
+                        <h3 class="nombre_item">Lupa con lente de 30X</h3>
+                        <p class="precio">$30.000 </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="galeria/lupa_03.jfif" alt="Lupa">
+                    <div class="descripcion">
+                        <hr>
+                        <h3 class="nombre_item">Lupa con lentes dobles 15X/20X</h3>
+                        <p class="precio">$35.000 </p>
+                    </div>
+                </div>        
+
+            </div>
+
+            <div class="fila">
+                
+                <div class="item">
+                    <img src="galeria/estereoscopio.jfif" alt="Estereoscopio">
+                    <div class="descripcion">
+                        <hr>
+                        <h3 class="nombre_item">Estereoscopio de bolsillo</h3>
+                        <p class="precio">$55.000</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="galeria/estereoscopio_01.jfif" alt="Estereoscopio">
+                    <div class="descripcion">
+                        <hr>
+                        <h3 class="nombre_item">Estereoscopio de espejos</h3>
+                        <p class="precio">$870.000 </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="galeria/gps.jfif" alt="GPS">
+                    <div class="descripcion">
+                        <hr>
+                        <h3 class="nombre_item">GPS marca Garmin</h3>
+                        <p class="precio">$1.210.000 </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    <footer>
+      <div class="declaracion">
+          <p>Todos los derechos reservados &copy;</p>
+      </div>
+
+      <div class="contacto">
+          Página realizada por | <a href="contacto.html">Andrés F. Ruiz</a>
+      </div>
+
+      <div class="correo">
+          <a href="mailto:servicio@geomarket.com">Servicio@geomarket.com</a>
+      </div>
+
+    </footer>
+
+
+
+    </body>
+</html>

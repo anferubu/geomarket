@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+  
+  <head>
+  	<meta charset="UTF-8">
+    <title>anferubu</title>
+ 	  <link rel="icon" sizes="16x16" href="icono/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+        
+    <style type="text/css">
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Ubuntu Mono', monospace;
+    }
+
+    body {
+        background-color: #f5f5f5;
+    }
+
+    h3 {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    p {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+
+
+    header {
+        width: 100%;
+        height: 70px;
+        background: #1ABC9C;
+        margin-bottom: 10px;
+        
+    }
+
+    .ancho {
+        width: 80%;
+        height: 70px;
+        margin: auto;
+    }
+
+    .imagen {
+        width: 8%;
+        height: 70px;
+        float: left;
+        padding-top: 10px;
+        box-sizing: border-box;
+
+    }
+
+    .logo {
+        width: 32%;
+        height: 70px;
+        float: left;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+
+    .logo p a {
+        color: #fff;
+        font-size: 40px;
+        text-decoration: none; 
+        font-weight: bold;
+        
+    }
+
+    nav {
+        width: 60%;
+        height: 70px;
+        float: left;
+        text-align: right;
+        padding-top: 24px;
+        box-sizing: border-box;
+
+    }
+
+    nav ul li {
+        display: inline;
+    }
+
+    nav ul li a {
+        color: #fff;
+        font-size: 13px;
+        text-decoration: none; 
+        text-transform: uppercase;
+        padding-left: 15px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        
+    }
+
+    nav ul li a:hover {
+        color: #444;
+        font-size: 14px;
+
+    }
+
+    #contenedor img {
+      width: 700px;
+    }
+
+    #contenedor {
+      width: 700px;
+      margin: 30px auto;
+      overflow: hidden;
+    }
+
+    #contenedor ul {
+      list-style: none;
+      width: 2100px;
+      display: flex;
+      animation: slide 5s infinite alternate;
+    }
+
+    @keyframes slide {
+      0% {margin-left: 0px;}
+      30% {margin-left: 0px;}
+
+      33% {margin-left: -700px;}
+      66% {margin-left: -700px;}
+
+      69% {margin-left: -1400px;}
+      100% {margin-left: -1400px;}
+    }
+
+
+    footer {
+        color: #fff;
+        font-family: monospace;
+        font-style: normal;
+        font-size: 15px;
+        font-weight: bold;
+        width: 100%;
+        height: 50px;
+        background: #1ABC9C;
+        margin-top: 10px;
+    }
+
+    div.declaracion, div.contacto, div.correo {
+        width: 33.3%;
+        height: 50px;
+        float: left;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    footer a {
+        color: #ffcc99;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 10%;
+        margin: 10px 20px 10px 0; 
+    }
+
+    footer a:hover {
+        color: #444;
+        background: #fff;
+    }
+
+    footer a:visited {
+        color: #ff3300;
+    }
+
+
+
+    
+    </style>
+
+  </head>
+  
+  <body>
+
+    <header>
+            <div class="ancho">
+
+                <div class="imagen">
+                    <img src="icono/logo.png" alt="GeoMarket" width="50px" height="50px">
+                </div>
+
+                <div class="logo">
+                    <p><a href="contacto.html">GeoMarket</a></p>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+    </header>
+
+
+    <div id="contenedor">
+      <ul>
+        <li><img src="slider/1.jpg" alt=""></li>
+        <li><img src="slider/2.jpg" alt=""></li>
+        <li><img src="slider/3.jpg" alt=""></li>
+      </ul>
+    </div>
+
+
+    <div id="texto">
+      <h3>¡Bienvenidos a nuestra tienda virtual!</h3>
+      <p>Te ofrecemos gran variedad de productos y herramientas geológicas, de marcas reconocidas y de la mejor calidad posible.</p>
+    </div>
+
+
+    <footer>
+      <div class="declaracion">
+          <p>Todos los derechos reservados &copy;</p>
+      </div>
+
+      <div class="contacto">
+          Página realizada por | <a href="contacto.html">Andrés F. Ruiz</a>
+      </div>
+
+      <div class="correo">
+          <a href="mailto:servicio@geomarket.com">Servicio@geomarket.com</a>
+      </div>
+
+    </footer>
+
+  </body>
+</html>
